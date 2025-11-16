@@ -21,7 +21,7 @@ jobs:
 
       # upload to S3
       - name: Sync to S3
-        run: aws s3 sync ./dist s3://${{ secrets.S3_BUCKET }} --delete
+        run: aws s3 sync . s3://${{ secrets.S3_BUCKET }} --delete
 
       # invalidate CloudFront cache
       - name: Invalidate CloudFront
