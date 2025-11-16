@@ -1,0 +1,225 @@
+/* IE10+ CSS styles */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .gallery-images-containers > * {
+    margin: 0px 5px 15px 5px;
+  }
+}
+
+/* Responsiveness */
+@media (max-width: 750px), (max-height: 915px) and (max-width: 1000px) {
+  /* Spacers */
+  .spacer {
+    display: none;
+  } 
+
+  /* Container */
+  #background {
+    pointer-events: none;
+  }
+
+  #site-container {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+  }
+
+  /* Header */
+  #site-container-header {
+    border-top: none;
+    border-radius: 0px;
+    padding: 5px 10px 5px 13px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+
+  .logo {
+    width: 28px;
+    margin-right: 8px;
+    margin-left: 0px;
+  }
+
+  .header-title {
+    font-size: 13px;
+  }
+
+  .header-motto {
+    display: none;
+  }
+  
+  .toggle-buttons-divs {
+    display: block;
+  }
+
+  /* Content */
+  #nav-content-container {
+    position: fixed;
+    top: 38px;
+  }
+
+  /* Navigation */
+  #navigation-menu {
+    position: absolute;
+    border-bottom-left-radius: 0px;
+    height: calc(100vh - 61px);
+    z-index: 10;
+  }
+
+  /* Hide Navbar by default on smaller devices */
+  #navigation-menu {
+    display: none;
+  }
+
+  /* Main */
+  #main-content {
+    border-bottom-right-radius: 0px;
+    height: calc(100vh - 57px);
+  }
+}
+
+/* Phone Size */
+@media (max-width: 641px) {
+  /* Smaller Font */
+  body {
+    font-size: 14px;
+  }
+
+  /* Headings */
+  h1 {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+
+  /* Page Navigation in smaller devices */
+  #page-nav h2 {
+    display: none;
+  }
+  .page-swap-div a {
+    padding: 6px 6px 10px 6px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 370px) {
+  /* Headings */
+  h1 {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 13px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+
+  /* Hide next and previous buttons */
+  .page-swap-div a:nth-child(2) {
+    display: none;
+  }
+
+  #clippy img {
+    width: 50px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 300px) {
+  .header-text span {
+    display: none;
+  }
+  .header-text:after {
+    color: white;
+    content: "MWCM";
+  }
+
+  /* Remove side padding */
+  #main-content {
+    padding: 15px 5px 3px 5px;
+  }
+}
+
+@media (max-width: 244px) {
+  .header-text span {
+    display: none;
+  }
+  .header-text:after {
+    color: white;
+    content: "MWCM";
+  }
+}
+
+@media (max-width: 215px) {
+  .header-text span {
+    display: none;
+  }
+  .header-text:after {
+    content: "";
+  }
+}
+
+@media (max-width: 641px) {
+  #sources ul {
+    margin: 10px 0px 0px 25px;
+  }
+}
+
+@media (min-width: 0px) {
+  .gallery-images-containers {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 700px) {
+  .gallery-images-containers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 800px) {
+  #site-container {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 880px) {
+  #site-container {
+    max-width: 830px;
+  }
+}
+
+@media (min-width: 900px) {
+  #site-container {
+    max-width: 840px;
+  }
+}
+
+@media (min-width: 961px) {
+  #site-container {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1060px) {
+  #site-container {
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 0px) {
+  .gallery-images-containers {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 700px) {
+  .gallery-images-containers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

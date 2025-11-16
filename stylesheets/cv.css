@@ -1,0 +1,45 @@
+#cv, #cv font {
+    color:white;
+    position: relative;
+}
+
+#pdf-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 82px;
+    width: 82px;
+}
+
+#cv-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p, span {
+    text-shadow: none;
+}
+
+#raw-cv {
+  max-width: 700px;
+  margin: auto;
+}
+
+#link-to-raw-cv {
+    position: absolute;
+    top:0%;
+    right: 0%;
+    padding-right: 10px;
+}
+
+#link-to-raw-cv a {
+    color: #9cdf96;
+}
+
+.visitor-count-container {
+    margin-top: 10px;
+    color: white;
+    display: flex;
+
+}

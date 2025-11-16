@@ -1,0 +1,56 @@
+#main-content {
+  background: url("/assets/images/utils/aero_glass.png"), rgba(39, 39, 39, 0.6);
+  border-right: 2px solid #363636;
+  border-bottom: 2px solid #363636;
+  border-bottom-right-radius: 3px;
+  backdrop-filter: blur(1px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  color: #dadada;
+  padding: 15px 20px 3px 20px;
+  height: 765px;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.styled-containers-spaced {
+  padding: 0px 10px 10px 10px;
+}
+
+.styled-containers {
+  background: rgba(27, 27, 27, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+  border-radius: 5px;
+  padding: 15px 10px 10px 10px;
+  max-width: 935px;
+}
+
+.glass-borders {
+  background-image: url("/assets/images/utils/aero_glass.png"), linear-gradient( rgba(48, 48, 48, 0.4), rgba(26, 26, 26, 0.4), rgba(26, 26, 26, 0.4) );
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+  border-bottom: 1px solid #525252;
+  border-top: 1px solid #797979;
+  border-left: 1px solid #777777;
+  border-right: 1px solid #797979;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 8px auto 8px auto;
+}
+
+.aero-borders {
+  border-top: 1px solid #5e5e5e;
+  border-left: 1px solid #5a5a5a;
+  border-bottom: 1px solid #4b4b4b;
+  border-right: 1px solid #4b4b4b;
+}
+
+.section-banners img {
+  border-bottom: 1px solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+}
+
+.styled-containers-spaced p, .styled-containers-headers p {
+  margin: 8px 5px 0px 5px;
+}

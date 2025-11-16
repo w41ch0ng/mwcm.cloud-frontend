@@ -1,0 +1,100 @@
+#nav-content-container {
+  display: flex;
+}
+
+#navigation-menu {
+  background: linear-gradient( 100deg, rgba(20, 20, 20, 0.8) 50%, rgba(27, 27, 27, 0.9) 100% );
+  border-right: 2px solid #3d3d3d;
+  border-left: 2px solid #3d3d3d;
+  border-bottom: 2px solid #3d3d3d;
+  border-bottom-left-radius: 60px;
+  backdrop-filter: blur(1px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  display: block;
+  height: 763px;
+  min-width: 122px;
+  max-width: 250px;
+  padding: 10px;
+  overflow: auto;
+}
+
+#navigation-menu div {
+  display: flex;
+}
+
+.nav-categories div {
+  margin: 1px 0px;
+  margin-bottom: 1px;
+  margin-bottom: -4px !important;
+  padding-bottom: 1.5px;
+}
+
+.nav-categories a {
+    color: white;
+}
+
+.nav-categories hr {
+  background: rgba(12, 12, 12, 0.8);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid rgb(48, 48, 48);
+  border-radius: 5px;
+  width: 100%;
+  height: 1px;
+  margin: 1.5px auto 2px auto;
+}
+
+#toggleSound {
+  background: linear-gradient( to bottom, #9efd96 0%, #32912a 30%, #185815 55%, #0b3112 55%, #1a5c1e 100% );
+  color: white;
+  cursor: url("/assets/cursors/link.cur"), auto;
+}
+
+.active-nav-div {
+  background: linear-gradient(to top, #1e4e02 0%, #00000000 50%) !important;
+}
+
+.navbar-titles {
+  background: linear-gradient( to bottom, rgba(119, 119, 119, 0.8) 0%, rgba(97, 97, 97, 0.8) 10%, rgba(35, 35, 35, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 60%, rgba(32, 32, 32, 0.8) 100% );
+  border-top: 1px solid #969696;
+  border-left: 1px solid #4b4b4b;
+  border-bottom: 2px solid #111111;
+  border-right: 1px solid #4b4b4b;
+  border-radius: 3px;
+  color: #f7f4f4;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+  font-size: 12.9px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.nav-categories {
+  background: rgba(26, 26, 26, 0.486);
+  border-top: 1.5px solid #535353;
+  border-left: 1px solid #414141;
+  border-bottom: 2px solid #2b2b2b;
+  border-right: 1px solid #414141;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 3px 5px;
+  margin-bottom: 4px;
+}
+
+.nav-active, .nav-inactive {
+  border: 1px solid #0f0f0f;
+  border-radius: 5px;
+  color: #eeeeee;
+  display: flex;
+  align-items: center;
+  margin: auto auto 2.5px auto;
+  width: 93%;
+  font-size: 13px;
+}
+
+.nav-inactive:hover {
+  background: linear-gradient( to bottom, rgba(129, 129, 129, 0.2) 0%, rgba(92, 92, 92, 0.2) 50%, rgba(43, 43, 43, 0.3) 50%, rgba(161, 161, 161, 0.3) 100% );
+  transform: scale(1.03);
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" href="/stylesheets/global.css">
+  <link rel="stylesheet" href="/stylesheets/main.css">
+  <link rel="stylesheet" href="/stylesheets/nav.css">
+  <link rel="stylesheet" href="/stylesheets/media-queries.css">
+  <title>MWCM</title>
+</head>
+<body>
+  <div id="background"></div>
+  <div id="site-container">
+    <div class="spacer"></div>
+    <header id="site-container-header">
+        <div class="header-logo-text">
+          <!-- <a href="/" title="Back to Home"><img class="logo" src="/assets/images/logo.gif" alt="logo" /></a> -->
+          <div class="header-text">
+            <span class="header-title">Mihalis Mounouchos</span>
+            <span class="header-motto">CV, Portfolio, etc.</span>
+          </div>
+        </div>
+        <div class="toggle-buttons-divs" id="hide-navbar-button-container">
+          <span id="hide-navbar-button-text">Menu &gt;</span>
+          <img src="/assets/images/gifs/logo.gif" alt="Toggle Menu Button" id="navbar-toggle-button">
+        </div>
+    </header>
+    <div id="nav-content-container">
+        <!-- Left Side -->
+        <aside>
+          <div id="navigation-menu" style="display: block;">
+            <nav class="nav-categories" aria-label="Navigation Category: Content">
+              <span class="navbar-titles">Content</span>
+              <div>
+                <a href="index.html" class="nav-inactive">Home</a>
+              </div>
+              <hr>
+              <div>
+                <span class="nav-inactive">Cloud Resume Challenge</span>
+                <!-- <a href="#" title="Coming Soon" class="nav-inactive">Cloud Resume Challenge</a> -->
+              </div>
+              <hr>
+              <div>
+                <span class="nav-inactive">Home Lab</span>
+                <!-- <a href="#" title="Coming Soon" class="nav-inactive">Home Lab</a> -->
+              </div>
+              <hr>
+              <div>
+                <a href="resources.html" class="nav-inactive">Resources</a>
+              </div>
+              <hr>
+              <div>
+                <a href="cv.html" class="nav-inactive">CV</a>
+              </div>
+              <hr>
+              <div>
+                <a href="https://github.com/w41ch0ng" class="nav-inactive">GitHub</a>
+              </div>
+            </nav>
+
+            <div class="nav-categories nav-sound-fx-container">
+              <button id="toggleSound" aria-label="Sound FX Toggle">SFX On</button>
+              <!-- <button id="navThemeChanger" aria-label="Theme Changer">
+                Themes
+              </button> -->
+            </div>
+          </div>
+        </aside>
+
+        <!-- Middle Content -->
+        <main id="main-content" aria-label="Main Content">
+          <section>
+
+            <h1>Error</h1>
+            <div class="glass-borders">
+              <article class="styled-containers styled-containers-spaced aero-borders">
+                <div class="error-container">
+                    <p>
+                    There seems to have been an error. 
+                    <br></br>
+                    <a href="index.html" title="Home">Take me back to the home page</a>
+                    </p>
+                </div>
+              </article>
+            </div>
+          </section>
+        </main>
+      </div>
+    <div class="spacer"></div>
+  </div>
+
+<audio id="hoverSound" src="/assets/sfx/nier-click.wav" preload="auto"></audio>
+<audio id="clickSound" src="/assets/sfx/nier-impact-2.wav" preload="auto"></audio>
+<script src="/index.js"></script>
+</body>
+</html>
