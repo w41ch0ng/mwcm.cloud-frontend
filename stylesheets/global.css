@@ -30,7 +30,6 @@ body {
   font-weight: 700;
   background: #303030 url("/assets/images/backgrounds/metalheart.jpg") no-repeat center center fixed;
   background-size: cover;
-  overflow: hidden;
 }
 
 h1, h2, h3 {
